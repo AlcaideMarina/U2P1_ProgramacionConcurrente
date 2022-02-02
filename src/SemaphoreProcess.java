@@ -87,7 +87,7 @@ public class SemaphoreProcess extends Thread {
 
 	int randomNumber(int n1, int n2) {
 		Random rdm = new Random();
-		int timing = rdm.nextInt(10) + 100;
+		int timing = rdm.nextInt(n1) + n2;
 		return timing;
 	}
 
